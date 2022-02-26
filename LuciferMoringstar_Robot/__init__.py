@@ -28,9 +28,9 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  MLA KINGDOM
+➥ Name :  🎞 𝙼𝙻𝙰 𝙺𝙸𝙽𝙶𝙳𝙾𝙼 🎞
     
-➥ Creator : Kofri
+➥ Creator : Kofri🖤
 
 
 ➥ Language : Python3
