@@ -32,10 +32,10 @@ ABOUT = """
     
 ➥ Creator : Kofri🖤
 
-
 ➥ Language : Python3
 
-➥ Library : Pyrogram Asyncio 1.13.0
+➥ BACKUP : [JOIN](https://t.me/mla_kingdom)
+
 
 
 """
