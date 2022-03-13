@@ -29,7 +29,12 @@ async def filter(client, message):
         except UserNotParticipant:
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="**JOIN**",
+                text="**✌🏻 നമസ്കാരം ✌🏻**
+
+**സിനിമകൾ കിട്ടണമെങ്കിൽ༆**
+⍟ "𝙹𝙾𝙸𝙽✨" Click ചെയ്ത്  🎞 𝙼𝙻𝙰 𝙺𝙸𝙽𝙶𝙳𝙾𝙼 🎞 ചാനലിൽ ജോയിൻ ചെയ്യുക
+⍟ 𝚁𝙴𝙵𝚁𝙴𝚂𝙷♻️ Click ചെയ്യുക
+⍟ Start കൊടുക്കുക.",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
@@ -53,7 +58,7 @@ async def filter(client, message):
     if 2 < len(message.text) < 100:    
         btn = []
         search = message.text
-        mo_tech_yt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**      How to Download**     **Pin ചെയ്ത Video കാണൂ**"
+        mo_tech_yt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**      How to Download**             **Pin ചെയ്ത Video കാണൂ**"
         files = await get_filter_results(query=search)
         if files:
             for file in files:
@@ -115,7 +120,7 @@ async def group(client, message):
     if 2 < len(message.text) < 50:    
         btn = []
         search = message.text
-        mo_tech_yt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**      How to Download**    **Pin ചെയ്ത Video കാണൂ**"
+        mo_tech_yt = f"**🗂️ Title:** {search}\n**⭐ Rating:** {random.choice(RATING)}\n**🎭 Genre:** {random.choice(GENRES)}\n**      How to Download**            **Pin ചെയ്ത Video കാണൂ**"
         nyva=BOT.get("username")
         if not nyva:
             botusername=await client.get_me()
