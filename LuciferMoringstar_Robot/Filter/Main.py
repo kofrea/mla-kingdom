@@ -29,15 +29,7 @@ async def filter(client, message):
         except UserNotParticipant:
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="**✌🏻 നമസ്കാരം ✌🏻
-
-സിനിമകൾ കിട്ടണമെങ്കിൽ༆
-
- ⍟ "𝙹𝙾𝙸𝙽✨" Click ചെയ്ത്  🎞 𝙼𝙻𝙰 𝙺𝙸𝙽𝙶𝙳𝙾𝙼 🎞 ചാനലിൽ ജോയിൻ ചെയ്യുക
-
-⍟ 𝚁𝙴𝙵𝚁𝙴𝚂𝙷♻️ Click ചെയ്യുക
-
-⍟ Start കൊടുക്കുക.**",
+                text="**JOIN**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
@@ -363,4 +355,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("നിനക്ക് വേണ്ടത് നീ സെർച്ച് ചെയ്യ്🤗",show_alert=True)
