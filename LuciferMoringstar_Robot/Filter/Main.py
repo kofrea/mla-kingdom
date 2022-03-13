@@ -29,11 +29,19 @@ async def filter(client, message):
         except UserNotParticipant:
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="**Please Join My Updates Channel to use this Bot!**",
+                text="**✌🏻 നമസ്കാരം ✌🏻
+
+സിനിമകൾ കിട്ടണമെങ്കിൽ༆
+
+ ⍟ "𝙹𝙾𝙸𝙽✨" Click ചെയ്ത്  🎞 𝙼𝙻𝙰 𝙺𝙸𝙽𝙶𝙳𝙾𝙼 🎞 ചാനലിൽ ജോയിൻ ചെയ്യുക
+
+⍟ 𝚁𝙴𝙵𝚁𝙴𝚂𝙷♻️ Click ചെയ്യുക
+
+⍟ Start കൊടുക്കുക.**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📢 Join Updates Channel 📢", url=invite_link.invite_link)
+                            InlineKeyboardButton("𝙹𝙾𝙸𝙽✨", url=invite_link.invite_link)
                         ]
                     ]
                 ),
@@ -308,7 +316,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🖥️ Join Backup Channel 🖥️', url=f'{TUTORIAL}')
                     ]
                     ]
                 
@@ -339,7 +347,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖥️ How To Own 🖥️', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🖥️ Join Backup Channel 🖥️', url=f'{TUTORIAL}')
                     ]
                     ]
                 
