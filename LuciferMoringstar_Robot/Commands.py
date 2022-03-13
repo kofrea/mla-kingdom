@@ -45,7 +45,8 @@ async def start(bot, message):
                 ident, file_id = message.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="**JOIN**",
+                    text="**JOIN**
+Vaa",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -99,7 +100,8 @@ async def start(bot, message):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=message.from_user.id,
-            text="**JOIN**",
+            text="**JOIN
+Vaa**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
